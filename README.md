@@ -1,2 +1,5 @@
 # Web-Dev
- for practicing web development
+ For practicing web development
+
+To see the blogs visit: https://isen-kun.github.io/Web-Dev/Blogs/story_1.html
+                        https://isen-kun.github.io/Web-Dev/Blogs/story_2.html
