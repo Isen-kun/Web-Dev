@@ -1,0 +1,39 @@
+body{
+    background-image: url("../images/waves.jpg");
+    background-color: #C4DFE6;
+}
+#mycontainer{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+#about{
+    background-color: #66A5AD;
+}
+#know{
+    background-color: #07575B;
+}
+#certi{
+    background-color: #003B46;
+}
+#projects{
+    background-color: #1995ad
+}
+#cont{
+    background-color: #002930;
+}
+#about, #know, #certi, #cont, #projects, #top{
+    color: whitesmoke;
+}
+h1{
+    background-image: linear-gradient(to right,#2B506D, #5085A4);
+    font-family: candara, sans-serif;
+    text-transform: uppercase;
+}
+h2, h3{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+p{
+    font-family: monospace;
+    font-size: large;
+}
