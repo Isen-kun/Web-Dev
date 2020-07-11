@@ -1,6 +1,4 @@
 # Web-Dev
- For practicing web development
-
 To see the projects visit the links: 
 
 Portfolio: https://isen-kun.github.io/Web-Dev/Portfolio/index.html
