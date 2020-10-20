@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Hello Web!</title>
+</head>
+<body>
+  <script>
+    var name = prompt("yo whats yo name?");
+    document.write("Hello there " + name + ", welcome to my page <br>");
+    var date = Date();
+    document.write("Today is " + date + " and it's a fine weather outside");
+    function Dio()
+    {
+      document.getElementById("ans").innerHTML = "Oh ho! then come as close as you like.";
+    }
+    function Mio()
+    {
+      document.getElementById("ans").innerHTML = "Yo momma gey but you pass cuz its pride month";
+    }
+  </script>
+
+
+  <p><b>Oh? You are approaching me?<br>Instead of running away, you're comig right to me?</b></p>
+  <button type="button" onclick="Dio()">I can't beat the shit out of you without getting closer.</button>
+  <button type="button" onclick="Mio()">No, I am following social distancng</button>
+  <b><p id="ans"></p></b>
+
+  <form>
+    <p><b>Anata no information hoshi(ㆁᴗㆁ✿)</b></p>
+    <label for = "name">Namae nani?</label>
+    <input type="text" id="name" name="name"> <br>
+
+    <label for="gender">Seibetsu?</label>
+    <input type="radio" id="gender" name="gender"> <br>
+
+    <label>Email aru?<input type="email" name="email"></label><br>
+
+    <label for="pass">Password mo irete‧º·(˚ ˃̣̣̥⌓˂̣̣̥ )‧º·˚</label>
+    <input type="password" id="pass" name="pass"> <br>
+
+    <label for="birth">Tanjoubi itsu?</label>
+    <input type="date" id="birth" name="birth"> <br>
+
+    <input type="submit" value="koko oshte kurasai">
+  </form>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+h3
+{
+    background-color: aqua ;
+    font-family:'Courier New', Courier, monospace;
+}
+header,footer
+{
+    background-color: rgb(228, 68, 68);
+    background: -moz-linear-gradient(top, rgb(228, 68, 68) 0%, #00b7ea 100%);
+	background: -webkit-linear-gradient(rgb(228, 68, 68) 0%, #00b7ea 100%);
+	background: -o-linear-gradient(rgb(228, 68, 68) 0%, #00b7ea 100%);
+	background: linear-gradient(rgb(228, 68, 68) 0%, #00b7ea 100%); 
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+}
+body{
+    background-image: url(../media/cover457.jpg);
+    margin: 4%;
+}
+nav a{
+    font-size: large;
+    text-decoration: none;
+    display: inline-block;
+    width: 40%;
+    margin: 4%;
+    text-align: center;
+    background-color: aliceblue;
+
+}
+p
+{
+    font-variant: small-caps;
+    color: rgb(0, 22, 150);
+}
+ol{
+    font-size: 125%;
+}
+.flt{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+#media{
+    clear: both;
+}
+img,video{
+    width: 50%;
+
+}
