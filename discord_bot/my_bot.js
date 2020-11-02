@@ -6,7 +6,7 @@ client.on("ready", () => {
 
   client.user.setActivity("YouTube", { type: "WATCHING" });
 
-  // terminators channel id: 427721999570173962
+  // terminators channel id:
   client.guilds.cache.forEach((guild) => {
     console.log(guild.name);
     guild.channels.cache.forEach((channel) => {
@@ -14,7 +14,7 @@ client.on("ready", () => {
     });
   });
 
-  let termChannel = client.channels.cache.get("427721999570173962");
+  let termChannel = client.channels.cache.get("use channel id here");
   // to send message everytime it comes online
   //   const attachment = new Discord.cache.Attachment();
   //   termChannel.send(attachment);
@@ -80,4 +80,4 @@ function multiplyCommand(arguments, recievedMessage) {
   );
 }
 
-client.login("NzcyNzY1MDgxNDAyNDc0NTM3.X5_bkA.3LB44gNB7ySH1o8bd9siYLhZYoA");
+client.login("Use discord token here!!!!");
