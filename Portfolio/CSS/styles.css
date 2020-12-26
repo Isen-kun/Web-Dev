@@ -1,39 +1,44 @@
-body{
-    background-image: url("../images/waves.jpg");
-    background-color: #C4DFE6;
+body {
+  background-image: url("../images/waves.jpg");
+  background-color: #c4dfe6;
 }
-#mycontainer{
-    padding-left: 8%;
-    padding-right: 8%;
+#mycontainer {
+  padding-left: 8%;
+  padding-right: 8%;
 }
-#about{
-    background-color: #66A5AD;
+#about {
+  background-color: #66a5ad;
 }
-#know{
-    background-color: #07575B;
+#know {
+  background-color: #07575b;
 }
-#certi{
-    background-color: #003B46;
+#certi {
+  background-color: #003b46;
 }
-#projects{
-    background-color: #1995ad
+#projects {
+  background-color: #1995ad;
 }
-#cont{
-    background-color: #002930;
+#cont {
+  background-color: #002930;
 }
-#about, #know, #certi, #cont, #projects, #top{
-    color: whitesmoke;
+#about,
+#know,
+#certi,
+#cont,
+#projects,
+#top {
+  color: whitesmoke;
 }
-h1{
-    background-image: linear-gradient(to right,#2B506D, #5085A4);
-    font-family: candara, sans-serif;
-    text-transform: uppercase;
+h1 {
+  background-image: linear-gradient(to right, #2b506d, #5085a4);
+  font-family: candara, sans-serif;
+  text-transform: uppercase;
 }
-h2, h3{
-    font-family: 'Times New Roman', Times, serif;
-
+h2,
+h3 {
+  font-family: "Times New Roman", Times, serif;
 }
-p{
-    font-family: monospace;
-    font-size: large;
+p {
+  font-family: monospace;
+  font-size: large;
 }
